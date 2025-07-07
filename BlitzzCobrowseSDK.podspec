@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.description = 'BlitzzCobrowseSDK is a binary SDK that enables cobrowsing support in iOS apps'
     s.license = { :type => 'Proprietary', :file => 'LICENSE' }
     s.homepage = 'https://help.blitzz.co/en/support/solutions/44000818327'
-    s.author = {  "Mitali Desai" => "mitali@blitzz.co" }
+    s.author = { 'Blitzz Inc' => 'dev@blitzz.co' }
     s.frameworks = 'Foundation'
     s.ios.deployment_target = '15.0'
     s.swift_version = '5'

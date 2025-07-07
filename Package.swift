@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BlitzzCobrowseSDK",
-            path: "BlitzzCobrowseSDK.xcframework" // <-- local path to the xcframework
+            path: "BlitzzCobrowseSDK.xcframework"
         )
     ]
 )
