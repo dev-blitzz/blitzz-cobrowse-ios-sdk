@@ -1,0 +1,6 @@
+framework module BlitzzCobrowseSDK {
+  umbrella header "BlitzzCobrowseSDK.h"
+  export *
+
+  module * { export * }
+}
