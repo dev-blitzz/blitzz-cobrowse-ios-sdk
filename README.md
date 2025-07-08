@@ -14,3 +14,8 @@ BlitzzCobrowseSDK is an iOS binary SDK to enable real-time cobrowsing, annotatio
 
 ```ruby
 pod 'BlitzzCobrowseSDK'
+
+### SPM
+
+```ruby
+https://github.com/dev-blitzz/blitzz-cobrowse-ios-sdk.git
