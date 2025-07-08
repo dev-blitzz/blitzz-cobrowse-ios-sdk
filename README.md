@@ -1,6 +1,6 @@
 # BlitzzCobrowseSDK
 
-BlitzzCobrowseSDK is an iOS SDK to enable real-time cobrowsing, annotation, and screen sharing for remote support within your app.
+BlitzzCobrowseSDK is an iOS binary SDK to enable real-time cobrowsing, annotation, and screen sharing for remote support within your app.
 
 ## Features
 
