@@ -14,10 +14,6 @@ import VideoToolbox
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-final public class CoBrowseConfig : @unchecked Swift.Sendable {
-  public init(licenseKey: Swift.String, autoInitiate: Swift.Bool = true, reference: Swift.String, maskAllInput: Swift.Bool = false)
-  @objc deinit
-}
 final public class BlitzzCobrowse {
   public init(config: BlitzzCobrowseSDK.CoBrowseConfig)
   public static func initialize(config: BlitzzCobrowseSDK.CoBrowseConfig)
@@ -27,8 +23,33 @@ final public class BlitzzCobrowse {
   @_Concurrency.MainActor final public func getCode()
   @objc deinit
 }
+final public class CoBrowseConfig : @unchecked Swift.Sendable {
+  public init(licenseKey: Swift.String, autoInitiate: Swift.Bool = true, reference: Swift.String, maskAllInput: Swift.Bool = false)
+  @objc deinit
+}
 extension UIKit.UIDevice {
   @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
+}
+public enum Environment : Swift.String {
+  case dev
+  case rc
+  case ga
+  public var sessionSocketUrl: Swift.String {
+    get
+  }
+  public var sessionApiUrl: Swift.String {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct BlitzzEnvironmentConfig {
+  public static var current: BlitzzCobrowseSDK.Environment
 }
 public protocol Connection {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -903,6 +924,9 @@ public enum DateStrategy {
     get
   }
 }
+extension BlitzzCobrowseSDK.Environment : Swift.Equatable {}
+extension BlitzzCobrowseSDK.Environment : Swift.Hashable {}
+extension BlitzzCobrowseSDK.Environment : Swift.RawRepresentable {}
 extension BlitzzCobrowseSDK.ProtocolType : Swift.Equatable {}
 extension BlitzzCobrowseSDK.ProtocolType : Swift.Hashable {}
 extension BlitzzCobrowseSDK.ProtocolType : Swift.RawRepresentable {}

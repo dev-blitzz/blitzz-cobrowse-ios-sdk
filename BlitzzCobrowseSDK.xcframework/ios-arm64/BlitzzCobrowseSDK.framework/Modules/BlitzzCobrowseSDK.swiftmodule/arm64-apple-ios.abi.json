@@ -16,6 +16,182 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "BlitzzCobrowseSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BlitzzCobrowse",
+        "printedName": "BlitzzCobrowse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BlitzzCobrowse",
+                "printedName": "BlitzzCobrowseSDK.BlitzzCobrowse",
+                "usr": "s:17BlitzzCobrowseSDK0aB0C"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CoBrowseConfig",
+                "printedName": "BlitzzCobrowseSDK.CoBrowseConfig",
+                "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17BlitzzCobrowseSDK0aB0C6configAcA14CoBrowseConfigC_tcfc",
+            "mangledName": "$s17BlitzzCobrowseSDK0aB0C6configAcA14CoBrowseConfigC_tcfc",
+            "moduleName": "BlitzzCobrowseSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CoBrowseConfig",
+                "printedName": "BlitzzCobrowseSDK.CoBrowseConfig",
+                "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BlitzzCobrowseSDK0aB0C10initialize6configyAA14CoBrowseConfigC_tFZ",
+            "mangledName": "$s17BlitzzCobrowseSDK0aB0C10initialize6configyAA14CoBrowseConfigC_tFZ",
+            "moduleName": "BlitzzCobrowseSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BlitzzCobrowse",
+                "printedName": "BlitzzCobrowseSDK.BlitzzCobrowse",
+                "usr": "s:17BlitzzCobrowseSDK0aB0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BlitzzCobrowseSDK0aB0C6sharedACvpZ",
+            "mangledName": "$s17BlitzzCobrowseSDK0aB0C6sharedACvpZ",
+            "moduleName": "BlitzzCobrowseSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BlitzzCobrowse",
+                    "printedName": "BlitzzCobrowseSDK.BlitzzCobrowse",
+                    "usr": "s:17BlitzzCobrowseSDK0aB0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BlitzzCobrowseSDK0aB0C6sharedACvgZ",
+                "mangledName": "$s17BlitzzCobrowseSDK0aB0C6sharedACvgZ",
+                "moduleName": "BlitzzCobrowseSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "getCode",
+            "printedName": "getCode()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17BlitzzCobrowseSDK0aB0C7getCodeyyF",
+            "mangledName": "$s17BlitzzCobrowseSDK0aB0C7getCodeyyF",
+            "moduleName": "BlitzzCobrowseSDK",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17BlitzzCobrowseSDK0aB0C",
+        "mangledName": "$s17BlitzzCobrowseSDK0aB0C",
+        "moduleName": "BlitzzCobrowseSDK",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BlitzzCobrowseSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "VideoToolbox",
         "printedName": "VideoToolbox",
         "declKind": "Import",
@@ -164,180 +340,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlitzzCobrowseSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BlitzzCobrowseSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "BlitzzCobrowse",
-        "printedName": "BlitzzCobrowse",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(config:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BlitzzCobrowse",
-                "printedName": "BlitzzCobrowseSDK.BlitzzCobrowse",
-                "usr": "s:17BlitzzCobrowseSDK0aB0C"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CoBrowseConfig",
-                "printedName": "BlitzzCobrowseSDK.CoBrowseConfig",
-                "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:17BlitzzCobrowseSDK0aB0C6configAcA14CoBrowseConfigC_tcfc",
-            "mangledName": "$s17BlitzzCobrowseSDK0aB0C6configAcA14CoBrowseConfigC_tcfc",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "initialize",
-            "printedName": "initialize(config:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CoBrowseConfig",
-                "printedName": "BlitzzCobrowseSDK.CoBrowseConfig",
-                "usr": "s:17BlitzzCobrowseSDK14CoBrowseConfigC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK0aB0C10initialize6configyAA14CoBrowseConfigC_tFZ",
-            "mangledName": "$s17BlitzzCobrowseSDK0aB0C10initialize6configyAA14CoBrowseConfigC_tFZ",
-            "moduleName": "BlitzzCobrowseSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "BlitzzCobrowse",
-                "printedName": "BlitzzCobrowseSDK.BlitzzCobrowse",
-                "usr": "s:17BlitzzCobrowseSDK0aB0C"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:17BlitzzCobrowseSDK0aB0C6sharedACvpZ",
-            "mangledName": "$s17BlitzzCobrowseSDK0aB0C6sharedACvpZ",
-            "moduleName": "BlitzzCobrowseSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BlitzzCobrowse",
-                    "printedName": "BlitzzCobrowseSDK.BlitzzCobrowse",
-                    "usr": "s:17BlitzzCobrowseSDK0aB0C"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:17BlitzzCobrowseSDK0aB0C6sharedACvgZ",
-                "mangledName": "$s17BlitzzCobrowseSDK0aB0C6sharedACvgZ",
-                "moduleName": "BlitzzCobrowseSDK",
-                "static": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "getCode",
-            "printedName": "getCode()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17BlitzzCobrowseSDK0aB0C7getCodeyyF",
-            "mangledName": "$s17BlitzzCobrowseSDK0aB0C7getCodeyyF",
-            "moduleName": "BlitzzCobrowseSDK",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "Custom",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:17BlitzzCobrowseSDK0aB0C",
-        "mangledName": "$s17BlitzzCobrowseSDK0aB0C",
-        "moduleName": "BlitzzCobrowseSDK",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -401,6 +403,456 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "Environment",
+        "printedName": "Environment",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "dev",
+            "printedName": "dev",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlitzzCobrowseSDK.Environment.Type) -> BlitzzCobrowseSDK.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "BlitzzCobrowseSDK.Environment",
+                    "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlitzzCobrowseSDK.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "BlitzzCobrowseSDK.Environment",
+                        "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17BlitzzCobrowseSDK11EnvironmentO3devyA2CmF",
+            "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO3devyA2CmF",
+            "moduleName": "BlitzzCobrowseSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "rc",
+            "printedName": "rc",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlitzzCobrowseSDK.Environment.Type) -> BlitzzCobrowseSDK.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "BlitzzCobrowseSDK.Environment",
+                    "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlitzzCobrowseSDK.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "BlitzzCobrowseSDK.Environment",
+                        "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17BlitzzCobrowseSDK11EnvironmentO2rcyA2CmF",
+            "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO2rcyA2CmF",
+            "moduleName": "BlitzzCobrowseSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "ga",
+            "printedName": "ga",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BlitzzCobrowseSDK.Environment.Type) -> BlitzzCobrowseSDK.Environment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "BlitzzCobrowseSDK.Environment",
+                    "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BlitzzCobrowseSDK.Environment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "BlitzzCobrowseSDK.Environment",
+                        "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17BlitzzCobrowseSDK11EnvironmentO2gayA2CmF",
+            "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO2gayA2CmF",
+            "moduleName": "BlitzzCobrowseSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "sessionSocketUrl",
+            "printedName": "sessionSocketUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BlitzzCobrowseSDK11EnvironmentO16sessionSocketUrlSSvp",
+            "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO16sessionSocketUrlSSvp",
+            "moduleName": "BlitzzCobrowseSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BlitzzCobrowseSDK11EnvironmentO16sessionSocketUrlSSvg",
+                "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO16sessionSocketUrlSSvg",
+                "moduleName": "BlitzzCobrowseSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionApiUrl",
+            "printedName": "sessionApiUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BlitzzCobrowseSDK11EnvironmentO13sessionApiUrlSSvp",
+            "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO13sessionApiUrlSSvp",
+            "moduleName": "BlitzzCobrowseSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BlitzzCobrowseSDK11EnvironmentO13sessionApiUrlSSvg",
+                "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO13sessionApiUrlSSvg",
+                "moduleName": "BlitzzCobrowseSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BlitzzCobrowseSDK.Environment?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "BlitzzCobrowseSDK.Environment",
+                    "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17BlitzzCobrowseSDK11EnvironmentO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO8rawValueACSgSS_tcfc",
+            "moduleName": "BlitzzCobrowseSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BlitzzCobrowseSDK11EnvironmentO8rawValueSSvp",
+            "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO8rawValueSSvp",
+            "moduleName": "BlitzzCobrowseSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BlitzzCobrowseSDK11EnvironmentO8rawValueSSvg",
+                "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO8rawValueSSvg",
+                "moduleName": "BlitzzCobrowseSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17BlitzzCobrowseSDK11EnvironmentO",
+        "mangledName": "$s17BlitzzCobrowseSDK11EnvironmentO",
+        "moduleName": "BlitzzCobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BlitzzEnvironmentConfig",
+        "printedName": "BlitzzEnvironmentConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "current",
+            "printedName": "current",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "BlitzzCobrowseSDK.Environment",
+                "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17BlitzzCobrowseSDK0A17EnvironmentConfigV7currentAA0D0OvpZ",
+            "mangledName": "$s17BlitzzCobrowseSDK0A17EnvironmentConfigV7currentAA0D0OvpZ",
+            "moduleName": "BlitzzCobrowseSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "BlitzzCobrowseSDK.Environment",
+                    "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BlitzzCobrowseSDK0A17EnvironmentConfigV7currentAA0D0OvgZ",
+                "mangledName": "$s17BlitzzCobrowseSDK0A17EnvironmentConfigV7currentAA0D0OvgZ",
+                "moduleName": "BlitzzCobrowseSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Environment",
+                    "printedName": "BlitzzCobrowseSDK.Environment",
+                    "usr": "s:17BlitzzCobrowseSDK11EnvironmentO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BlitzzCobrowseSDK0A17EnvironmentConfigV7currentAA0D0OvsZ",
+                "mangledName": "$s17BlitzzCobrowseSDK0A17EnvironmentConfigV7currentAA0D0OvsZ",
+                "moduleName": "BlitzzCobrowseSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17BlitzzCobrowseSDK0A17EnvironmentConfigV7currentAA0D0OvMZ",
+                "mangledName": "$s17BlitzzCobrowseSDK0A17EnvironmentConfigV7currentAA0D0OvMZ",
+                "moduleName": "BlitzzCobrowseSDK",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17BlitzzCobrowseSDK0A17EnvironmentConfigV",
+        "mangledName": "$s17BlitzzCobrowseSDK0A17EnvironmentConfigV",
+        "moduleName": "BlitzzCobrowseSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -416,16 +868,6 @@
         "printedName": "Network",
         "declKind": "Import",
         "moduleName": "BlitzzCobrowseSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BlitzzCobrowseSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -34328,86 +34770,93 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 460,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 528,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "StringLiteral",
-      "offset": 381,
+      "offset": 382,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "StringLiteral",
-      "offset": 413,
+      "offset": 414,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "StringLiteral",
-      "offset": 444,
+      "offset": 445,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "StringLiteral",
-      "offset": 499,
+      "offset": 500,
       "length": 27,
       "value": "\"com.cobrowse.captureQueue\""
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 570,
-      "length": 52,
-      "value": "\"https:\/\/cobrowse-socket-dev.blitzz.co\/blitzzsocket\""
-    },
-    {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "Array",
-      "offset": 703,
+      "offset": 700,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1152,
+      "offset": 1149,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1205,
+      "offset": 1202,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1296,
+      "offset": 1293,
       "length": 2,
       "value": "60"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1368,
+      "offset": 1365,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1476,
+      "offset": 1473,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseiOSSDK.swift",
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/BlitzzCobrowseService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1526,
+      "offset": 1523,
       "length": 5,
       "value": "false"
     },
@@ -34449,30 +34898,16 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1027,
+      "offset": 1073,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1073,
+      "offset": 1119,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseViewModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 369,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseViewModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 437,
-      "length": 4,
-      "value": "1000"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
@@ -34484,84 +34919,84 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "StringLiteral",
-      "offset": 3224,
+      "offset": 3174,
       "length": 12,
       "value": "\"nil buffer\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "StringLiteral",
-      "offset": 3373,
+      "offset": 3323,
       "length": 13,
       "value": "\"nil pointer\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "StringLiteral",
-      "offset": 3480,
+      "offset": 3430,
       "length": 17,
       "value": "\"encoding failed\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "StringLiteral",
-      "offset": 3615,
+      "offset": 3565,
       "length": 36,
       "value": "\"CMSampleBuffer is not ready to use\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "StringLiteral",
-      "offset": 3769,
+      "offset": 3719,
       "length": 15,
       "value": "\"frame dropped\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4234,
+      "offset": 4184,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4419,
+      "offset": 4369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4836,
+      "offset": 4786,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 4935,
+      "offset": 4885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 5022,
+      "offset": 4972,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 5196,
+      "offset": 5146,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/H264Encoder.swift",
       "kind": "IntegerLiteral",
-      "offset": 5315,
+      "offset": 5265,
       "length": 1,
       "value": "4"
     },
@@ -34820,56 +35255,56 @@
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/Helper\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 447,
+      "offset": 500,
       "length": 41,
       "value": "\"Please share below code with your agent\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/Helper\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 526,
+      "offset": 579,
       "length": 7,
       "value": "\"Close\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/Helper\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1693,
+      "offset": 1746,
       "length": 86,
       "value": "\"An agent would like to temporarily use this app with you. Do you want to allow this?\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/Helper\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1810,
+      "offset": 1863,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/Helper\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 1848,
+      "offset": 1901,
       "length": 8,
       "value": "\"Reject\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/Helper\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 2548,
+      "offset": 2601,
       "length": 43,
       "value": "\"Are you sure you want to end the session?\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/Helper\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 2629,
+      "offset": 2682,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/Helper\/AlertManager.swift",
       "kind": "StringLiteral",
-      "offset": 2672,
+      "offset": 2725,
       "length": 9,
       "value": "\"End now\""
     },

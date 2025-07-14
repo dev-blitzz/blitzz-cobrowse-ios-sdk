@@ -1,16 +1,12 @@
-# BlitzzCobrowseSDK
-
-BlitzzCobrowseSDK is an iOS SDK to enable real-time cobrowsing, annotation, and screen sharing for remote support within your app.
-
-## Features
-
-- 📲 Real-time screen sharing from iOS app
-- 🔒 Secure & encrypted connections
-- 🔧 Easy integration with just a few lines of code
-
+# Blitzz - iOS Native SDK
+[Blitzz](https://blitzz.co) is 100% free and easy to try out in your own apps.
+Schedule a demo at [https://blitzz.co/schedule-a-demo].
+Please see **full documentation** at [Installation Steps](https://help.blitzz.co/en/support/solutions/44000818327).
 ## Installation
-
-### CocoaPods
-
-```ruby
-pod 'BlitzzCobrowseSDK'
+See the [installation documentation](http://help.blitzz.co/en/support/solutions/44000818327) to get started.
+## Try it out
+Once you have your app running in the iOS simulator or on a physical device, navigate to your account to see your device listed. You can click the "Connect" button to initiate a Cobrowsing session!
+## Questions?
+Any questions at all? Please email us directly at [support@blitzz.co](mailto:support@blitzz.co).
+## Requirements
+* iOS 15 or later

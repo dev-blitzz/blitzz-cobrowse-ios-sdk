@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.frameworks = 'Foundation'
     s.ios.deployment_target = '15.0'
     s.swift_version = '5'
-    s.source = { :git => 'https://github.com/dev-blitzz/blitzz-cobrowse-ios-sdk.git', :tag => "v#{s.version}" }
+    s.source = { :git => 'https://github.com/Blitzz-Inc/blitzz-cobrowse-ios-sdk.git', :tag => "v#{s.version}" }
 
     s.subspec 'XCFramework' do |sp|
         sp.vendored_frameworks = 'BlitzzCobrowseSDK.xcframework'
