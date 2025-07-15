@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'BlitzzCobrowseSDK'
-    s.version = '0.0.1'
+    s.version = '1.0.0'
     s.summary = 'Blitzz Cobrowse SDK'    
     s.license = 'Proprietary'
     s.homepage = 'https://help.blitzz.co/en/support/solutions/44000818327'
