@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
     s.name = 'BlitzzCobrowseSDK'
-    s.version = '1.0.0'
+    s.version = '0.0.1'
     s.summary = 'Blitzz Cobrowse SDK'    
-    s.license = 'Proprietary'
+    s.license = { :type => 'Apache 2.0', :file => 'LICENSE' }
     s.homepage = 'https://help.blitzz.co/en/support/solutions/44000818327'
     s.author = { 'Blitzz Inc' => 'dev@blitzz.co' }
     s.frameworks = 'Foundation'
