@@ -1,4 +1,4 @@
-# Blitzz - iOS Native SDK
+# Blitzz - iOS Native Binary SDK
 [Blitzz](https://blitzz.co) is 100% free and easy to try out in your own apps.
 Schedule a demo at [https://blitzz.co/schedule-a-demo].
 Please see **full documentation** at [Installation Steps](https://help.blitzz.co/en/support/solutions/44000818327).

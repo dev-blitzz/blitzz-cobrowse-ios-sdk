@@ -14,7 +14,7 @@
 		</data>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		jpyVaZ3taH/TbooDK265scdC7D0=
+		GDHBcPrljFXLWXcegTXDLFqY/Fc=
 		</data>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zXUBB5rtDJ26vzORwiY5uyKiRIE=
+		6JFqxFX3S5KmePNISlGZcFzSzq8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,11 +54,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jpyVaZ3taH/TbooDK265scdC7D0=
+			GDHBcPrljFXLWXcegTXDLFqY/Fc=
 			</data>
 			<key>hash2</key>
 			<data>
-			DwVsUktiDbQ9hhL74luC038SG6fLMkPpan+Zqji33ls=
+			ae2aI8lm5GtmcZHWWikdo7fev8Iq5XZPfEAnM453Szw=
 			</data>
 		</dict>
 		<key>Modules/BlitzzCobrowseSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -98,11 +98,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zXUBB5rtDJ26vzORwiY5uyKiRIE=
+			6JFqxFX3S5KmePNISlGZcFzSzq8=
 			</data>
 			<key>hash2</key>
 			<data>
-			twyy6JfHeFh7jNFnYmrsdzUQ5xxrjcNtHVZo9QaaCRM=
+			ZoVtt/83KuHTKLXZqa1UWUdZu3e/EQnjJQKZTnPQgMk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
