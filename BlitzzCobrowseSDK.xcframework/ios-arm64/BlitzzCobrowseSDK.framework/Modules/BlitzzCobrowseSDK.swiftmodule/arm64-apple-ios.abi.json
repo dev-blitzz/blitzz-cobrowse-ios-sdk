@@ -261,6 +261,7 @@
                 "kind": "TypeNominal",
                 "name": "String",
                 "printedName": "Swift.String",
+                "hasDefaultArg": true,
                 "usr": "s:SS"
               },
               {
@@ -34914,8 +34915,15 @@
     },
     {
       "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1099,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/akash.shethsculptsoft.com\/Documents\/Mitali\/Cobrowse_iOS_SDK\/Sources\/BlitzzCobrowseSDK\/BlitzzCobrowse\/CoBrowseConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1119,
+      "offset": 1124,
       "length": 5,
       "value": "false"
     },

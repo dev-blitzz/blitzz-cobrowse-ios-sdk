@@ -24,7 +24,7 @@ final public class BlitzzCobrowse {
   @objc deinit
 }
 final public class CoBrowseConfig : @unchecked Swift.Sendable {
-  public init(licenseKey: Swift.String, autoInitiate: Swift.Bool = true, reference: Swift.String, maskAllInput: Swift.Bool = false)
+  public init(licenseKey: Swift.String, autoInitiate: Swift.Bool = true, reference: Swift.String = "", maskAllInput: Swift.Bool = false)
   @objc deinit
 }
 extension UIKit.UIDevice {
